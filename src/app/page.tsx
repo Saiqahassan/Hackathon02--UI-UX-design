@@ -1,5 +1,4 @@
 import NewCeramics from "@/components/Ceramics";
-import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
 import Products from "@/components/Products";
@@ -10,7 +9,6 @@ export default function Home() {
     <div>
       <Header/>
       <Hero />
-      <Footer/>
       <NewCeramics/>
       <Products/>
       
