@@ -1,4 +1,5 @@
 import NewCeramics from "@/components/Ceramics";
+import Datafetch from "@/components/Datafetch";
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
 import Products from "@/components/Products";
@@ -9,6 +10,7 @@ export default function Home() {
     <div>
       <Header/>
       <Hero />
+      <Datafetch/>
       <NewCeramics/>
       <Products/>
       
